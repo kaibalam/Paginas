@@ -1,0 +1,59 @@
+p {
+	font-size: 15px
+}
+
+#imagen{
+	width: 100%;
+	height: 900px;
+}
+
+.letrona{
+	font-size: 40px;
+	font-style: Calibri;
+}
+
+/*	margin: 6px;
+}
+p:nth-child(1){
+	background: #999999;
+}
+p:nth-child(2){
+	background: #cccccc;
+}
+p:nth-child(3){
+	background: #999999;
+}
+p:nth-child(4){
+	background: #cccccc;
+}*/
+
+* {
+	margin: 8px;
+}
+p:nth-child(odd){
+	background: #999999
+}
+p:nth-child(even){
+	background: #cccccc
+}
+p:last-child{
+	background: #eeeecc
+}
+
+/*:not(p){
+	margin: 0px;
+}*/
+/*:not(#imagen){
+	margin: 0px;
+}*/
+
+div > p.mitexto2{
+	color: #990000;
+}
+
+p.mitexto2 + p{
+	color: #990099
+}
+p.mitexto2 ~ p {
+	color: #990088
+}
